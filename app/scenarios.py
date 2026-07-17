@@ -1,5 +1,3 @@
-# app/scenarios.py
-
 import random
 
 SCENARIOS = [
@@ -31,7 +29,6 @@ SCENARIOS = [
         "correct_answer": "Activate backup oxygen"
     }
 ]
-
 
 def get_random_scenario():
     return random.choice(SCENARIOS)
